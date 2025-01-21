@@ -167,3 +167,90 @@ console.log("Generando un numero aleatorio entre 1 y 100")
 let numeroAleatorio = Math.floor(Math.random() * 100) + 1
 console.log("El numero aleatorio es: " + numeroAleatorio)
 ```
+
+8. Mostrar los valores encontrados en el arreglo [1, 2, 3, 4, 5] usando PARA
+
+Pseudocodigo:
+
+```text
+INICIO
+    
+    arreglo <- [1, 2, 3, 4, 5]
+    detener <- TAMAÑO arreglo
+
+    PARA i <- 0 HASTA detener HACER
+        IMPRIMIR arreglo[i]
+    FIN PARA
+FIN
+```
+
+Javascript:
+```javascript
+
+/* 
+
+for(iterador; condicion; incremento){
+    codigo
+}
+
+for(indice in arreglo){
+    codigo
+}
+
+for(atributo in objeto) {
+    codigo
+}
+
+*/
+
+let arreglo = [1, 2, 3, 4, 5]
+let detener = arreglo.length 
+
+for(let i = 0; i < detener; i++){
+    console.log(arreglo[i])
+}
+
+for(let indice in arreglo){
+    console.log(arreglo[indice])
+}
+
+
+```
+9. Mostrar las propiedades del objeto estudiante { id: 1, name: 'John', lastname: 'Doe' } FOR-IN (PARA-EN)
+
+Pseudocodigo:
+
+```text
+INICIO
+    objeto <- { id: 1, name: 'John', lastname: 'Doe' }
+
+    PARA clave EN objeto HACER
+        IMPRIMIR "Clave: " + clave + "Valor: " + objeto[clave]
+    FIN PARA
+FIN
+```
+
+Javascript:
+```javascript
+
+/* 
+
+for(atributo in objeto) {
+    codigo
+}
+
+*/
+
+let objeto = { id: 1, name: 'John', lastname: 'Doe' }
+
+for (let clave in objeto){
+    console.log("Clave: " + clave + ", Valor: " + objeto[clave]) // Clave: id, Valor: 1 // Clave: name, Valor: John // Clave: lastname, Valor: Doe
+}
+
+
+```
+
+
+10. Mostrar las propiedades del objeto estudiante { id: 1, name: 'John', lastname: 'Doe' } FOR-OF (PARA-DE)
+
+    Respuesta: No se puede recorrer porque los objeto no pueden ser iterados

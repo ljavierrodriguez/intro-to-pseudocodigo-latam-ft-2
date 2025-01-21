@@ -18,11 +18,49 @@ FIN
 
 3. Iteraciones
 
+MIENTRAS: 
+
 ```text
 INICIO 
     MIENTRAS condicion HACER
         acción
     FIN MIENTRAS
+FIN
+```
+
+PARA: 
+
+```text
+INICIO 
+    PARA i <- 1 HASTA 5 HACER
+        IMPRIMIR i
+    FIN PARA
+FIN
+```
+
+PARA-EN:
+
+```text
+INICIO 
+    PARA clave EN objeto HACER
+        IMPRIMIR "Clave:" + clave + ", Valor: " + objeto[clave]
+    FIN PARA
+FIN
+
+INICIO 
+    PARA indice EN arreglo HACER
+        IMPRIMIR "Indice:" + indice + ", Valor: " + arreglo[indice]
+    FIN PARA
+FIN
+```
+
+PARA-DE:
+
+```text
+INICIO 
+    PARA elemento EN arreglo HACER
+        IMPRIMIR "Elemento: " + elemento
+    FIN PARA
 FIN
 ```
 

@@ -8,4 +8,8 @@
 6. Encontrar el mayor de dos numeros
 7. Generar un numero aleatorio entre 1 y 100
 
+8. Mostrar los valores encontrados en el arreglo [1, 2, 3, 4, 5] usando PARA
+9. Mostrar las propiedades del objeto estudiante { id: 1, name: 'John', lastname: 'Doe' } FOR-IN (PARA-EN)
+10. Mostrar las propiedades del objeto estudiante { id: 1, name: 'John', lastname: 'Doe' } FOR-OF (PARA-DE)
+
 [regresar](README.md)
